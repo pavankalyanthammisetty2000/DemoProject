@@ -9,3 +9,7 @@ def f2(request):
 
 def f111(request):
 	return HttpResponse("<h1>Hello from DemoApp1 f111()</h1><hr />");
+
+
+def f222(request):
+	return HttpResponse("<h1>Hello from DemoApp1 f222()</h1><hr />");
